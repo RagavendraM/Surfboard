@@ -36,8 +36,14 @@ RecyclerView recyclerView;
         recyclerView.setAdapter(adapter);
 
         //BottomSheet
-        BottomSheet bottomSheet = new BottomSheet();
-        bottomSheet.show(getSupportFragmentManager(),"Fragment");
+        findViewById(R.id.floating_action_button).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                BottomSheet bottomSheet = new BottomSheet();
+                bottomSheet.show(getSupportFragmentManager(),"Fragment");
+            }
+        });
+
     }
 
     public static class ConAdapter extends RecyclerView.Adapter<ViewHolder>

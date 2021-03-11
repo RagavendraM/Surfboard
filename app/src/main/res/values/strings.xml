@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">SurfboardApp</string>
+    <string-array name="product_array">
+        <item>Knitted Polo</item>
+        <item>Pocho</item>
+        <item>Jeans Packet</item>
+        <item>Sneakers</item>
+        <item>Sunglass</item>
+    </string-array>
+
+    <string-array name="product_desc_array">
+        <item>M| Greenish</item>
+        <item>S| Off-White</item>
+        <item>M| Jeans</item>
+        <item>39| Black</item>
+        <item>50| Red</item>
+    </string-array>
+
+    <string-array name="product_price_array">
+        <item>299.00 KR</item>
+        <item>299.00 KR</item>
+        <item>299.00 KR</item>
+        <item>299.00 KR</item>
+        <item>299.00 KR</item>
+    </string-array>
+
+    <string-array name="product_qty_array">
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+    </string-array>
+
+    <array name="product_icon_array">
+        <item>@drawable/a</item>
+        <item>@drawable/b</item>
+        <item>@drawable/c</item>
+        <item>@drawable/d</item>
+        <item>@drawable/e</item>
+    </array>
+    <string name="content">Use the card reader located on the right hand side of this screen. We accept most card, including all digital card. Use chip or contactless</string>
+    <string name="card_payment">Card payment</string>
+    <string name="selected">Selected</string>
+</resources>
